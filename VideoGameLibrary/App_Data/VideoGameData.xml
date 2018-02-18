@@ -1,139 +1,127 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<!--Maybe add description, platforms(list in xml?), genre, box art(img in xml?), metcritic score?-->
+
 <VideoGames>
 
   <VideoGame>
     <Id>1</Id>
     <Name>Metal Gear Solid V: The Phantom Pain</Name>
-    <ReleaseDate></ReleaseDate>
-    <Developer></Developer>
-    <Publisher></Publisher>
-    <Platforms></Platforms>
+    <ReleaseDate>September 1, 2015</ReleaseDate>
+    <Developer>Kojima Productions</Developer>
+    <Publisher>Konami</Publisher>
   </VideoGame>
 
   <VideoGame>
     <Id>2</Id>
-    <Name></Name>
-    <ReleaseDate></ReleaseDate>
-    <Developer></Developer>
-    <Publisher></Publisher>
-    <Platforms></Platforms>
+    <Name>The Legend of Zelda: Breath of the Wild</Name>
+    <ReleaseDate>March 3, 2017</ReleaseDate>
+    <Developer>Nintendo</Developer>
+    <Publisher>Nintendo</Publisher>
   </VideoGame>
   
   <VideoGame>
     <Id>3</Id>
-    <Name></Name>
-    <ReleaseDate></ReleaseDate>
-    <Developer></Developer>
-    <Publisher></Publisher>
-    <Platforms></Platforms>
+    <Name>Super Mario Odyssey</Name>
+    <ReleaseDate>October 27, 2017</ReleaseDate>
+    <Developer>Nintendo</Developer>
+    <Publisher>Nintendo</Publisher>
   </VideoGame>
 
   <VideoGame>
     <Id>4</Id>
-    <Name></Name>
-    <ReleaseDate></ReleaseDate>
-    <Developer></Developer>
-    <Publisher></Publisher>
-    <Platforms></Platforms>
+    <Name>Horizon Zero Dawn</Name>
+    <ReleaseDate>February 28, 2017</ReleaseDate>
+    <Developer>Guerrilla Games</Developer>
+    <Publisher>Sony Interactive Entertainment</Publisher>
   </VideoGame>
 
   <VideoGame>
     <Id>5</Id>
-    <Name></Name>
-    <ReleaseDate></ReleaseDate>
-    <Developer></Developer>
-    <Publisher></Publisher>
-    <Platforms></Platforms>
+    <Name>Monster Hunter: World</Name>
+    <ReleaseDate>January 26, 2018</ReleaseDate>
+    <Developer>Capcom</Developer>
+    <Publisher>Capcom</Publisher>
   </VideoGame>
 
   <VideoGame>
     <Id>6</Id>
-    <Name></Name>
-    <ReleaseDate></ReleaseDate>
-    <Developer></Developer>
-    <Publisher></Publisher>
-    <Platforms></Platforms>
+    <Name>Resident Evil 7: Biohazard</Name>
+    <ReleaseDate>January 24, 2017</ReleaseDate>
+    <Developer>Capcom</Developer>
+    <Publisher>Capcom</Publisher>
   </VideoGame>
 
   <VideoGame>
     <Id>7</Id>
-    <Name></Name>
-    <ReleaseDate></ReleaseDate>
-    <Developer></Developer>
-    <Publisher></Publisher>
-    <Platforms></Platforms>
+    <Name>Nier: Automata</Name>
+    <ReleaseDate>February 23, 2017</ReleaseDate>
+    <Developer>PlatinumGames</Developer>
+    <Publisher>Square Enix</Publisher>
   </VideoGame>
 
   <VideoGame>
     <Id>8</Id>
-    <Name></Name>
-    <ReleaseDate></ReleaseDate>
-    <Developer></Developer>
-    <Publisher></Publisher>
-    <Platforms></Platforms>
+    <Name>Cuphead</Name>
+    <ReleaseDate>September 29, 2017</ReleaseDate>
+    <Developer>StudioMDHR</Developer>
+    <Publisher>StudioMDHR</Publisher>
   </VideoGame>
 
   <VideoGame>
     <Id>9</Id>
-    <Name></Name>
-    <ReleaseDate></ReleaseDate>
-    <Developer></Developer>
-    <Publisher></Publisher>
-    <Platforms></Platforms>
+    <Name>Overwatch</Name>
+    <ReleaseDate>May 24, 2016</ReleaseDate>
+    <Developer>Blizzard Entertainment</Developer>
+    <Publisher>Blizzard Entertainment</Publisher>
   </VideoGame>
 
   <VideoGame>
     <Id>10</Id>
-    <Name></Name>
-    <ReleaseDate></ReleaseDate>
-    <Developer></Developer>
-    <Publisher></Publisher>
-    <Platforms></Platforms>
+    <Name>Nioh</Name>
+    <ReleaseDate>February 7, 2017</ReleaseDate>
+    <Developer>Team Ninja</Developer>
+    <Publisher>Koei Tecmo</Publisher>
   </VideoGame>
 
   <VideoGame>
     <Id>11</Id>
-    <Name></Name>
-    <ReleaseDate></ReleaseDate>
-    <Developer></Developer>
-    <Publisher></Publisher>
-    <Platforms></Platforms>
+    <Name>The Witcher 3: Wild Hunt</Name>
+    <ReleaseDate>May 19, 2015</ReleaseDate>
+    <Developer>CD Projekt RED</Developer>
+    <Publisher>CD Projekt</Publisher>
   </VideoGame>
 
   <VideoGame>
     <Id>12</Id>
-    <Name></Name>
-    <ReleaseDate></ReleaseDate>
-    <Developer></Developer>
-    <Publisher></Publisher>
-    <Platforms></Platforms>
+    <Name>Portal</Name>
+    <ReleaseDate>October 9, 2007</ReleaseDate>
+    <Developer>Valve Corporation</Developer>
+    <Publisher>Valve Corporation</Publisher>
   </VideoGame>
 
   <VideoGame>
     <Id>13</Id>
-    <Name></Name>
-    <ReleaseDate></ReleaseDate>
-    <Developer></Developer>
-    <Publisher></Publisher>
-    <Platforms></Platforms>
+    <Name>Factorio</Name>
+    <ReleaseDate>2012</ReleaseDate>
+    <Developer>Wube Software</Developer>
+    <Publisher>Wube Software</Publisher>
   </VideoGame>
 
   <VideoGame>
     <Id>14</Id>
-    <Name></Name>
-    <ReleaseDate></ReleaseDate>
-    <Developer></Developer>
-    <Publisher></Publisher>
-    <Platforms></Platforms>
+    <Name>Human: Fall Flat</Name>
+    <ReleaseDate>July 22, 2016</ReleaseDate>
+    <Developer>No Brakes Games</Developer>
+    <Publisher>Curve Digital</Publisher>
   </VideoGame>
 
   <VideoGame>
     <Id>15</Id>
-    <Name></Name>
-    <ReleaseDate></ReleaseDate>
-    <Developer></Developer>
-    <Publisher></Publisher>
-    <Platforms></Platforms>
+    <Name>Terraria</Name>
+    <ReleaseDate>May 16, 2011</ReleaseDate>
+    <Developer>Re-Logic</Developer>
+    <Publisher>Re-Logic</Publisher>
   </VideoGame>
   
 </VideoGames>
