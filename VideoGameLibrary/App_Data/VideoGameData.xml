@@ -123,5 +123,53 @@
     <Developer>Re-Logic</Developer>
     <Publisher>Re-Logic</Publisher>
   </VideoGame>
+
+  <VideoGame>
+    <Id>16</Id>
+    <Name>Gunpoint</Name>
+    <ReleaseDate>June 3, 2013</ReleaseDate>
+    <Developer>Tom Francis</Developer>
+    <Publisher>Suspicious Developments</Publisher>
+  </VideoGame>
+
+  <VideoGame>
+    <Id>17</Id>
+    <Name>Nidhogg</Name>
+    <ReleaseDate>January 13, 2014</ReleaseDate>
+    <Developer>Messhof Games</Developer>
+    <Publisher>Messhof Games</Publisher>
+  </VideoGame>
+
+  <VideoGame>
+    <Id>18</Id>
+    <Name>Magicka</Name>
+    <ReleaseDate>January 25, 2011</ReleaseDate>
+    <Developer>Arrowhead Game Studios</Developer>
+    <Publisher>Paradox Interactive</Publisher>
+  </VideoGame>
+
+  <VideoGame>
+    <Id>19</Id>
+    <Name>Path of Exile</Name>
+    <ReleaseDate>October 23, 2013</ReleaseDate>
+    <Developer>Grinding Gear Games</Developer>
+    <Publisher>Grinding Gear Games</Publisher>
+  </VideoGame>
+
+  <VideoGame>
+    <Id>20</Id>
+    <Name>7 Days to Die</Name>
+    <ReleaseDate>December 13, 2013</ReleaseDate>
+    <Developer>The Fun Pimps</Developer>
+    <Publisher>Telltale Games</Publisher>
+  </VideoGame>
+
+  <VideoGame>
+    <Id>21</Id>
+    <Name>Dungeon of the Endless</Name>
+    <ReleaseDate>October 27, 2014</ReleaseDate>
+    <Developer>Amplitude Studios</Developer>
+    <Publisher>hemodroid</Publisher>
+  </VideoGame>
   
 </VideoGames>
