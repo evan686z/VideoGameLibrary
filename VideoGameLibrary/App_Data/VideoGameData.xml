@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<VideoGames>
+
+  <VideoGame>
+    <Id>1</Id>
+    <Name></Name>
+    <ReleaseDate></ReleaseDate>
+    <Developer></Developer>
+    <Publisher></Publisher>
+    <Platforms></Platforms>
+  </VideoGame>
+
+  <VideoGame>
+    <Id>2</Id>
+    <Name></Name>
+    <ReleaseDate></ReleaseDate>
+    <Developer></Developer>
+    <Publisher></Publisher>
+    <Platforms></Platforms>
+  </VideoGame>
+  
+  <VideoGame>
+    <Id>3</Id>
+    <Name></Name>
+    <ReleaseDate></ReleaseDate>
+    <Developer></Developer>
+    <Publisher></Publisher>
+    <Platforms></Platforms>
+  </VideoGame>
+
+  <VideoGame>
+    <Id>4</Id>
+    <Name></Name>
+    <ReleaseDate></ReleaseDate>
+    <Developer></Developer>
+    <Publisher></Publisher>
+    <Platforms></Platforms>
+  </VideoGame>
+
+  <VideoGame>
+    <Id>5</Id>
+    <Name></Name>
+    <ReleaseDate></ReleaseDate>
+    <Developer></Developer>
+    <Publisher></Publisher>
+    <Platforms></Platforms>
+  </VideoGame>
+
+  <VideoGame>
+    <Id>6</Id>
+    <Name></Name>
+    <ReleaseDate></ReleaseDate>
+    <Developer></Developer>
+    <Publisher></Publisher>
+    <Platforms></Platforms>
+  </VideoGame>
+
+  <VideoGame>
+    <Id>7</Id>
+    <Name></Name>
+    <ReleaseDate></ReleaseDate>
+    <Developer></Developer>
+    <Publisher></Publisher>
+    <Platforms></Platforms>
+  </VideoGame>
+
+  <VideoGame>
+    <Id>8</Id>
+    <Name></Name>
+    <ReleaseDate></ReleaseDate>
+    <Developer></Developer>
+    <Publisher></Publisher>
+    <Platforms></Platforms>
+  </VideoGame>
+
+  <VideoGame>
+    <Id>9</Id>
+    <Name></Name>
+    <ReleaseDate></ReleaseDate>
+    <Developer></Developer>
+    <Publisher></Publisher>
+    <Platforms></Platforms>
+  </VideoGame>
+
+  <VideoGame>
+    <Id>10</Id>
+    <Name></Name>
+    <ReleaseDate></ReleaseDate>
+    <Developer></Developer>
+    <Publisher></Publisher>
+    <Platforms></Platforms>
+  </VideoGame>
+
+  <VideoGame>
+    <Id>11</Id>
+    <Name></Name>
+    <ReleaseDate></ReleaseDate>
+    <Developer></Developer>
+    <Publisher></Publisher>
+    <Platforms></Platforms>
+  </VideoGame>
+
+  <VideoGame>
+    <Id>12</Id>
+    <Name></Name>
+    <ReleaseDate></ReleaseDate>
+    <Developer></Developer>
+    <Publisher></Publisher>
+    <Platforms></Platforms>
+  </VideoGame>
+
+  <VideoGame>
+    <Id>13</Id>
+    <Name></Name>
+    <ReleaseDate></ReleaseDate>
+    <Developer></Developer>
+    <Publisher></Publisher>
+    <Platforms></Platforms>
+  </VideoGame>
+
+  <VideoGame>
+    <Id>14</Id>
+    <Name></Name>
+    <ReleaseDate></ReleaseDate>
+    <Developer></Developer>
+    <Publisher></Publisher>
+    <Platforms></Platforms>
+  </VideoGame>
+
+  <VideoGame>
+    <Id>15</Id>
+    <Name></Name>
+    <ReleaseDate></ReleaseDate>
+    <Developer></Developer>
+    <Publisher></Publisher>
+    <Platforms></Platforms>
+  </VideoGame>
+  
+</VideoGames>
