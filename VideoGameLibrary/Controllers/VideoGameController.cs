@@ -16,6 +16,9 @@ namespace VideoGameLibrary.Controllers
             // instantiate a repository
             VideoGameRepository videoGameRepository = new VideoGameRepository();
 
+            // create a distinct list of dates for the date filter
+            ViewBag.Dates = ListOfDates();
+
             // return the data context as an enumerable
             IEnumerable<VideoGame> videoGames;
             using (videoGameRepository)
@@ -35,6 +38,56 @@ namespace VideoGameLibrary.Controllers
                     break;
             }
             return View(videoGames);
+        }
+
+        [HttpPost]
+        public ActionResult Index(string searchCriteria, string dateFilter)
+        {
+            // instantiate a repository
+            VideoGameRepository videoGameRepository = new VideoGameRepository();
+
+            // create a distinct list of dates for the dates filter
+            ViewBag.Dates = ListOfDates();
+
+            // return the data context as an enumerable
+            IEnumerable<VideoGame> videoGames;
+            using (videoGameRepository)
+            {
+                videoGames = videoGameRepository.SelectAll() as IList<VideoGame>;
+            }
+
+            // if posted with a search on video game name
+            if (searchCriteria != null)
+            {
+                videoGames = videoGames.Where(v => v.Name.ToUpper().Contains(searchCriteria.ToUpper()));
+            }
+
+            // if posted with a filter on release date
+            if (dateFilter != "" || dateFilter == null)
+            {
+                videoGames = videoGames.Where(v => v.ReleaseDate == dateFilter);
+            }
+
+            return View(videoGames);
+        }
+
+        [NonAction]
+        private IEnumerable<string> ListOfDates()
+        {
+            // instantiate a repository
+            VideoGameRepository videoGameRepository = new VideoGameRepository();
+
+            // return the data context as an enumerable
+            IEnumerable<VideoGame> videoGames;
+            using (videoGameRepository)
+            {
+                videoGames = videoGameRepository.SelectAll() as IList<VideoGame>;
+            }
+
+            // get a distinct list of dates
+            var dates = videoGames.Select(v => v.ReleaseDate).Distinct().OrderBy(x => x);
+
+            return dates;
         }
 
         // GET: VideoGame/Details/5
