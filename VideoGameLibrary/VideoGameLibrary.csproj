@@ -143,6 +143,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\VideoGameController.cs" />
     <Compile Include="DAL\DataSettings.cs" />
     <Compile Include="DAL\IVideoGameDataServices.cs" />
     <Compile Include="DAL\IVideoGameRepository.cs" />
@@ -193,6 +194,7 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\VideoGame\Index.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

@@ -50,7 +50,7 @@ namespace VideoGameLibrary.DAL
 
         public void Dispose()
         {
-            throw new NotImplementedException();
+            // set resources to be cleaned up
         }
     }
 }
