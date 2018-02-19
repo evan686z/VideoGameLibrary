@@ -1,8 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
+<VideoGames xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 
 <!--Maybe add description, platforms(list in xml?), genre, box art(img in xml?), metcritic score?-->
-
-<VideoGames>
 
   <VideoGame>
     <Id>1</Id>
