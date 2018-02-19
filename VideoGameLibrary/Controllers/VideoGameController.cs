@@ -23,6 +23,17 @@ namespace VideoGameLibrary.Controllers
                 videoGames = videoGameRepository.SelectAll() as IList<VideoGame>;
             }
 
+            // sort by name unless posted as a new sort
+            // *Note* don't need .ToList() ?... videoGames = videoGames.ToList().OrderBy(v => v.ReleaseDate);
+            switch (sortOrder)
+            {
+                case "ReleaseDate":
+                    videoGames = videoGames.OrderBy(v => v.ReleaseDate);
+                    break;
+                default:
+                    videoGames = videoGames.OrderBy(v => v.Name);
+                    break;
+            }
             return View(videoGames);
         }
 
