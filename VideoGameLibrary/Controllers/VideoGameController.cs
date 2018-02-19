@@ -16,7 +16,7 @@ namespace VideoGameLibrary.Controllers
             // instantiate a repository
             VideoGameRepository videoGameRepository = new VideoGameRepository();
 
-            // create a distinct list of dates for the date filter
+            // create a distinct list of years for the years filter
             ViewBag.Years = ListOfYears();
 
             // return the data context as an enumerable
@@ -46,7 +46,7 @@ namespace VideoGameLibrary.Controllers
             // instantiate a repository
             VideoGameRepository videoGameRepository = new VideoGameRepository();
 
-            // create a distinct list of dates for the dates filter
+            // create a distinct list of years for the years filter
             ViewBag.Years = ListOfYears();
 
             // return the data context as an enumerable
@@ -62,7 +62,7 @@ namespace VideoGameLibrary.Controllers
                 videoGames = videoGames.Where(v => v.Name.ToUpper().Contains(searchCriteria.ToUpper()));
             }
 
-            // if posted with a filter on release date
+            // if posted with a filter on release year
             if (yearFilter != "" || yearFilter == null)
             {
                 videoGames = videoGames.Where(v => v.ReleaseYear == yearFilter);
@@ -84,7 +84,7 @@ namespace VideoGameLibrary.Controllers
                 videoGames = videoGameRepository.SelectAll() as IList<VideoGame>;
             }
 
-            // get a distinct list of dates
+            // get a distinct list of years
             var dates = videoGames.Select(v => v.ReleaseYear).Distinct().OrderBy(x => x);
 
             return dates;
