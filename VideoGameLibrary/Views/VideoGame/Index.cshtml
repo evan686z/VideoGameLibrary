@@ -16,10 +16,10 @@
         </div>
 
         <div class="form-group">
-            @Html.Label("Filter by Date", htmlAttributes: new { @class = "control-label col-md-2" })
-            @Html.DropDownList("dateFilter",
-                     new SelectList(@ViewBag.Dates),
-                     "All Dates",
+            @Html.Label("Filter by Year", htmlAttributes: new { @class = "control-label col-md-2" })
+            @Html.DropDownList("yearFilter",
+                     new SelectList(@ViewBag.Years),
+                     "All Years",
                      new { @class = "form-control" })
         </div>
 

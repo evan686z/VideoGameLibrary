@@ -17,7 +17,7 @@ namespace VideoGameLibrary.Controllers
             VideoGameRepository videoGameRepository = new VideoGameRepository();
 
             // create a distinct list of dates for the date filter
-            ViewBag.Dates = ListOfDates();
+            ViewBag.Years = ListOfYears();
 
             // return the data context as an enumerable
             IEnumerable<VideoGame> videoGames;
@@ -31,7 +31,7 @@ namespace VideoGameLibrary.Controllers
             switch (sortOrder)
             {
                 case "ReleaseDate":
-                    videoGames = videoGames.OrderBy(v => v.ReleaseDate);
+                    videoGames = videoGames.OrderBy(v => v.ReleaseYear);
                     break;
                 default:
                     videoGames = videoGames.OrderBy(v => v.Name);
@@ -41,13 +41,13 @@ namespace VideoGameLibrary.Controllers
         }
 
         [HttpPost]
-        public ActionResult Index(string searchCriteria, string dateFilter)
+        public ActionResult Index(string searchCriteria, string yearFilter)
         {
             // instantiate a repository
             VideoGameRepository videoGameRepository = new VideoGameRepository();
 
             // create a distinct list of dates for the dates filter
-            ViewBag.Dates = ListOfDates();
+            ViewBag.Years = ListOfYears();
 
             // return the data context as an enumerable
             IEnumerable<VideoGame> videoGames;
@@ -63,16 +63,16 @@ namespace VideoGameLibrary.Controllers
             }
 
             // if posted with a filter on release date
-            if (dateFilter != "" || dateFilter == null)
+            if (yearFilter != "" || yearFilter == null)
             {
-                videoGames = videoGames.Where(v => v.ReleaseDate == dateFilter);
+                videoGames = videoGames.Where(v => v.ReleaseYear == yearFilter);
             }
 
             return View(videoGames);
         }
 
         [NonAction]
-        private IEnumerable<string> ListOfDates()
+        private IEnumerable<string> ListOfYears()
         {
             // instantiate a repository
             VideoGameRepository videoGameRepository = new VideoGameRepository();
@@ -85,7 +85,7 @@ namespace VideoGameLibrary.Controllers
             }
 
             // get a distinct list of dates
-            var dates = videoGames.Select(v => v.ReleaseDate).Distinct().OrderBy(x => x);
+            var dates = videoGames.Select(v => v.ReleaseYear).Distinct().OrderBy(x => x);
 
             return dates;
         }
@@ -93,7 +93,17 @@ namespace VideoGameLibrary.Controllers
         // GET: VideoGame/Details/5
         public ActionResult Details(int id)
         {
-            return View();
+            // instantiate a repository
+            VideoGameRepository videoGameRepository = new VideoGameRepository();
+            VideoGame videoGame = new VideoGame();
+
+            // get a videoGame that has the matching id
+            using (videoGameRepository)
+            {
+                videoGame = videoGameRepository.SelectOne(id);
+            }
+
+            return View(videoGame);
         }
 
         // GET: VideoGame/Create

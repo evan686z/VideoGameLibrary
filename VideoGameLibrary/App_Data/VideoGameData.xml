@@ -7,6 +7,7 @@
     <Id>1</Id>
     <Name>Metal Gear Solid V: The Phantom Pain</Name>
     <ReleaseDate>September 1, 2015</ReleaseDate>
+    <ReleaseYear>2015</ReleaseYear>
     <Developer>Kojima Productions</Developer>
     <Publisher>Konami</Publisher>
   </VideoGame>
@@ -15,6 +16,7 @@
     <Id>2</Id>
     <Name>The Legend of Zelda: Breath of the Wild</Name>
     <ReleaseDate>March 3, 2017</ReleaseDate>
+    <ReleaseYear>2017</ReleaseYear>
     <Developer>Nintendo</Developer>
     <Publisher>Nintendo</Publisher>
   </VideoGame>
@@ -23,6 +25,7 @@
     <Id>3</Id>
     <Name>Super Mario Odyssey</Name>
     <ReleaseDate>October 27, 2017</ReleaseDate>
+    <ReleaseYear>2017</ReleaseYear>
     <Developer>Nintendo</Developer>
     <Publisher>Nintendo</Publisher>
   </VideoGame>
@@ -31,6 +34,7 @@
     <Id>4</Id>
     <Name>Horizon Zero Dawn</Name>
     <ReleaseDate>February 28, 2017</ReleaseDate>
+    <ReleaseYear>2017</ReleaseYear>
     <Developer>Guerrilla Games</Developer>
     <Publisher>Sony Interactive Entertainment</Publisher>
   </VideoGame>
@@ -39,6 +43,7 @@
     <Id>5</Id>
     <Name>Monster Hunter: World</Name>
     <ReleaseDate>January 26, 2018</ReleaseDate>
+    <ReleaseYear>2018</ReleaseYear>
     <Developer>Capcom</Developer>
     <Publisher>Capcom</Publisher>
   </VideoGame>
@@ -47,6 +52,7 @@
     <Id>6</Id>
     <Name>Resident Evil 7: Biohazard</Name>
     <ReleaseDate>January 24, 2017</ReleaseDate>
+    <ReleaseYear>2017</ReleaseYear>
     <Developer>Capcom</Developer>
     <Publisher>Capcom</Publisher>
   </VideoGame>
@@ -55,6 +61,7 @@
     <Id>7</Id>
     <Name>Nier: Automata</Name>
     <ReleaseDate>February 23, 2017</ReleaseDate>
+    <ReleaseYear>2017</ReleaseYear>
     <Developer>PlatinumGames</Developer>
     <Publisher>Square Enix</Publisher>
   </VideoGame>
@@ -63,6 +70,7 @@
     <Id>8</Id>
     <Name>Cuphead</Name>
     <ReleaseDate>September 29, 2017</ReleaseDate>
+    <ReleaseYear>2017</ReleaseYear>
     <Developer>StudioMDHR</Developer>
     <Publisher>StudioMDHR</Publisher>
   </VideoGame>
@@ -71,6 +79,7 @@
     <Id>9</Id>
     <Name>Overwatch</Name>
     <ReleaseDate>May 24, 2016</ReleaseDate>
+    <ReleaseYear>2016</ReleaseYear>
     <Developer>Blizzard Entertainment</Developer>
     <Publisher>Blizzard Entertainment</Publisher>
   </VideoGame>
@@ -79,6 +88,7 @@
     <Id>10</Id>
     <Name>Nioh</Name>
     <ReleaseDate>February 7, 2017</ReleaseDate>
+    <ReleaseYear>2017</ReleaseYear>
     <Developer>Team Ninja</Developer>
     <Publisher>Koei Tecmo</Publisher>
   </VideoGame>
@@ -87,6 +97,7 @@
     <Id>11</Id>
     <Name>The Witcher 3: Wild Hunt</Name>
     <ReleaseDate>May 19, 2015</ReleaseDate>
+    <ReleaseYear>2015</ReleaseYear>
     <Developer>CD Projekt RED</Developer>
     <Publisher>CD Projekt</Publisher>
   </VideoGame>
@@ -95,6 +106,7 @@
     <Id>12</Id>
     <Name>Portal</Name>
     <ReleaseDate>October 9, 2007</ReleaseDate>
+    <ReleaseYear>2007</ReleaseYear>
     <Developer>Valve Corporation</Developer>
     <Publisher>Valve Corporation</Publisher>
   </VideoGame>
@@ -102,7 +114,8 @@
   <VideoGame>
     <Id>13</Id>
     <Name>Factorio</Name>
-    <ReleaseDate>2012</ReleaseDate>
+    <ReleaseDate>January 1, 2012</ReleaseDate>
+    <ReleaseYear>2012</ReleaseYear>
     <Developer>Wube Software</Developer>
     <Publisher>Wube Software</Publisher>
   </VideoGame>
@@ -111,6 +124,7 @@
     <Id>14</Id>
     <Name>Human: Fall Flat</Name>
     <ReleaseDate>July 22, 2016</ReleaseDate>
+    <ReleaseYear>2016</ReleaseYear>
     <Developer>No Brakes Games</Developer>
     <Publisher>Curve Digital</Publisher>
   </VideoGame>
@@ -119,6 +133,7 @@
     <Id>15</Id>
     <Name>Terraria</Name>
     <ReleaseDate>May 16, 2011</ReleaseDate>
+    <ReleaseYear>2011</ReleaseYear>
     <Developer>Re-Logic</Developer>
     <Publisher>Re-Logic</Publisher>
   </VideoGame>
@@ -127,6 +142,7 @@
     <Id>16</Id>
     <Name>Gunpoint</Name>
     <ReleaseDate>June 3, 2013</ReleaseDate>
+    <ReleaseYear>2013</ReleaseYear>
     <Developer>Tom Francis</Developer>
     <Publisher>Suspicious Developments</Publisher>
   </VideoGame>
@@ -135,6 +151,7 @@
     <Id>17</Id>
     <Name>Nidhogg</Name>
     <ReleaseDate>January 13, 2014</ReleaseDate>
+    <ReleaseYear>2014</ReleaseYear>
     <Developer>Messhof Games</Developer>
     <Publisher>Messhof Games</Publisher>
   </VideoGame>
@@ -143,6 +160,7 @@
     <Id>18</Id>
     <Name>Magicka</Name>
     <ReleaseDate>January 25, 2011</ReleaseDate>
+    <ReleaseYear>2011</ReleaseYear>
     <Developer>Arrowhead Game Studios</Developer>
     <Publisher>Paradox Interactive</Publisher>
   </VideoGame>
@@ -151,6 +169,7 @@
     <Id>19</Id>
     <Name>Path of Exile</Name>
     <ReleaseDate>October 23, 2013</ReleaseDate>
+    <ReleaseYear>2013</ReleaseYear>
     <Developer>Grinding Gear Games</Developer>
     <Publisher>Grinding Gear Games</Publisher>
   </VideoGame>
@@ -159,6 +178,7 @@
     <Id>20</Id>
     <Name>7 Days to Die</Name>
     <ReleaseDate>December 13, 2013</ReleaseDate>
+    <ReleaseYear>2013</ReleaseYear>
     <Developer>The Fun Pimps</Developer>
     <Publisher>Telltale Games</Publisher>
   </VideoGame>
@@ -167,6 +187,7 @@
     <Id>21</Id>
     <Name>Dungeon of the Endless</Name>
     <ReleaseDate>October 27, 2014</ReleaseDate>
+    <ReleaseYear>2014</ReleaseYear>
     <Developer>Amplitude Studios</Developer>
     <Publisher>hemodroid</Publisher>
   </VideoGame>
