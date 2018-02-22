@@ -208,6 +208,7 @@
     <Content Include="Views\VideoGame\Index.cshtml" />
     <Content Include="Views\VideoGame\Details.cshtml" />
     <Content Include="Views\VideoGame\Create.cshtml" />
+    <Content Include="Views\VideoGame\Edit.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

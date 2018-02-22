@@ -118,13 +118,12 @@ namespace VideoGameLibrary.Controllers
             return View(videoGame);
         }
 
-        // GET: VideoGame/Create
+        [HttpGet]
         public ActionResult Create()
         {
             return View();
         }
 
-        // POST: VideoGame/Create
         [HttpPost]
         public ActionResult Create(VideoGame videoGame)
         {
@@ -141,29 +140,40 @@ namespace VideoGameLibrary.Controllers
             }
             catch
             {
-                // TO DO: add view for error message
+                // TODO: add view for error message
                 return View();
             }
         }
 
-        // GET: VideoGame/Edit/5
+        [HttpGet]
         public ActionResult Edit(int id)
         {
-            return View();
+            VideoGameRepository videoGameRepository = new VideoGameRepository();
+            VideoGame videoGame = new VideoGame();
+
+            using (videoGameRepository)
+            {
+                videoGame = videoGameRepository.SelectOne(id);
+            }
+            return View(videoGame);
         }
 
-        // POST: VideoGame/Edit/5
         [HttpPost]
-        public ActionResult Edit(int id, FormCollection collection)
+        public ActionResult Edit(VideoGame videoGame)
         {
             try
             {
-                // TODO: Add update logic here
+                VideoGameRepository videoGameRepository = new VideoGameRepository();
 
+                using (videoGameRepository)
+                {
+                    videoGameRepository.Update(videoGame);
+                }
                 return RedirectToAction("Index");
             }
             catch
             {
+                // TODO: add view for error message
                 return View();
             }
         }

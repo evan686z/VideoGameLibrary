@@ -12,6 +12,7 @@ namespace VideoGameLibrary.Models
         public string Name { get; set; }
         [Display(Name = "Release Date")]
         public string ReleaseDate { get; set; }
+        [Display(Name = "Release Year")]
         public string ReleaseYear { get; set; }
         public string Developer { get; set; }
         public string Publisher { get; set; }

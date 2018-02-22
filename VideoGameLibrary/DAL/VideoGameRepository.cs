@@ -44,7 +44,7 @@ namespace VideoGameLibrary.DAL
         {
             int currentMaxId = _videoGames.OrderByDescending(v => v.Id).FirstOrDefault().Id;
 
-            return currentMaxId;
+            return currentMaxId + 1;
         }
 
         public void Update(VideoGame updateVideoGame)

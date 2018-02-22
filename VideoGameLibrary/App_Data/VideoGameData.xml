@@ -145,12 +145,12 @@
     <Publisher>Paradox Interactive</Publisher>
   </VideoGame>
   <VideoGame>
-    <Id>19</Id>
-    <Name>Path of Exile</Name>
-    <ReleaseDate>October 23, 2013</ReleaseDate>
-    <ReleaseYear>2013</ReleaseYear>
-    <Developer>Grinding Gear Games</Developer>
-    <Publisher>Grinding Gear Games</Publisher>
+    <Id>21</Id>
+    <Name>Dungeon of the Endless</Name>
+    <ReleaseDate>October 27, 2014</ReleaseDate>
+    <ReleaseYear>2014</ReleaseYear>
+    <Developer>Amplitude Studios</Developer>
+    <Publisher>hemodroid</Publisher>
   </VideoGame>
   <VideoGame>
     <Id>20</Id>
@@ -161,11 +161,19 @@
     <Publisher>Telltale Games</Publisher>
   </VideoGame>
   <VideoGame>
-    <Id>21</Id>
-    <Name>Dungeon of the Endless</Name>
-    <ReleaseDate>October 27, 2014</ReleaseDate>
-    <ReleaseYear>2014</ReleaseYear>
-    <Developer>Amplitude Studios</Developer>
-    <Publisher>hemodroid</Publisher>
+    <Id>19</Id>
+    <Name>Path of Exile</Name>
+    <ReleaseDate>October 23, 2013</ReleaseDate>
+    <ReleaseYear>2013</ReleaseYear>
+    <Developer>Grinding Gear Games</Developer>
+    <Publisher>Grinding Gear Games</Publisher>
+  </VideoGame>
+  <VideoGame>
+    <Id>22</Id>
+    <Name>World of Warcraft</Name>
+    <ReleaseDate>November 23, 2004</ReleaseDate>
+    <ReleaseYear>2004</ReleaseYear>
+    <Developer>Blizzard Entertainment</Developer>
+    <Publisher>Blizzard Entertainment</Publisher>
   </VideoGame>
 </VideoGames>
