@@ -5,13 +5,14 @@ using System.Web;
 using System.Web.Mvc;
 using VideoGameLibrary.DAL;
 using VideoGameLibrary.Models;
+using PagedList;
 
 namespace VideoGameLibrary.Controllers
 {
     public class VideoGameController : Controller
     {
         [HttpGet]
-        public ActionResult Index(string sortOrder)
+        public ActionResult Index(string sortOrder, int? page)
         {
             // instantiate a repository
             VideoGameRepository videoGameRepository = new VideoGameRepository();
@@ -37,11 +38,17 @@ namespace VideoGameLibrary.Controllers
                     videoGames = videoGames.OrderBy(v => v.Name);
                     break;
             }
+
+            // set parameters and paginate the video game list
+            int pageSize = 50;
+            int pageNumber = (page ?? 1);
+            videoGames = videoGames.ToPagedList(pageNumber, pageSize);
+
             return View(videoGames);
         }
 
         [HttpPost]
-        public ActionResult Index(string searchCriteria, string yearFilter)
+        public ActionResult Index(string searchCriteria, string yearFilter, int? page)
         {
             // instantiate a repository
             VideoGameRepository videoGameRepository = new VideoGameRepository();
@@ -67,6 +74,11 @@ namespace VideoGameLibrary.Controllers
             {
                 videoGames = videoGames.Where(v => v.ReleaseYear == yearFilter);
             }
+
+            // set parameters and paginate the video game list
+            int pageSize = 50;
+            int pageNumber = (page ?? 1);
+            videoGames = videoGames.ToPagedList(pageNumber, pageSize);
 
             return View(videoGames);
         }
@@ -114,16 +126,22 @@ namespace VideoGameLibrary.Controllers
 
         // POST: VideoGame/Create
         [HttpPost]
-        public ActionResult Create(FormCollection collection)
+        public ActionResult Create(VideoGame videoGame)
         {
             try
             {
-                // TODO: Add insert logic here
+                VideoGameRepository videoGameRepository = new VideoGameRepository();
+
+                using (videoGameRepository)
+                {
+                    videoGameRepository.Insert(videoGame);
+                }
 
                 return RedirectToAction("Index");
             }
             catch
             {
+                // TO DO: add view for error message
                 return View();
             }
         }

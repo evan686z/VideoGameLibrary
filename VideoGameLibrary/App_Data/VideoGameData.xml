@@ -1,8 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <VideoGames xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-
-<!--Maybe add description, platforms(list in xml?), genre, box art(img in xml?), metcritic score?-->
-
   <VideoGame>
     <Id>1</Id>
     <Name>Metal Gear Solid V: The Phantom Pain</Name>
@@ -11,7 +8,6 @@
     <Developer>Kojima Productions</Developer>
     <Publisher>Konami</Publisher>
   </VideoGame>
-
   <VideoGame>
     <Id>2</Id>
     <Name>The Legend of Zelda: Breath of the Wild</Name>
@@ -20,7 +16,6 @@
     <Developer>Nintendo</Developer>
     <Publisher>Nintendo</Publisher>
   </VideoGame>
-  
   <VideoGame>
     <Id>3</Id>
     <Name>Super Mario Odyssey</Name>
@@ -29,7 +24,6 @@
     <Developer>Nintendo</Developer>
     <Publisher>Nintendo</Publisher>
   </VideoGame>
-
   <VideoGame>
     <Id>4</Id>
     <Name>Horizon Zero Dawn</Name>
@@ -38,7 +32,6 @@
     <Developer>Guerrilla Games</Developer>
     <Publisher>Sony Interactive Entertainment</Publisher>
   </VideoGame>
-
   <VideoGame>
     <Id>5</Id>
     <Name>Monster Hunter: World</Name>
@@ -47,7 +40,6 @@
     <Developer>Capcom</Developer>
     <Publisher>Capcom</Publisher>
   </VideoGame>
-
   <VideoGame>
     <Id>6</Id>
     <Name>Resident Evil 7: Biohazard</Name>
@@ -56,7 +48,6 @@
     <Developer>Capcom</Developer>
     <Publisher>Capcom</Publisher>
   </VideoGame>
-
   <VideoGame>
     <Id>7</Id>
     <Name>Nier: Automata</Name>
@@ -65,7 +56,6 @@
     <Developer>PlatinumGames</Developer>
     <Publisher>Square Enix</Publisher>
   </VideoGame>
-
   <VideoGame>
     <Id>8</Id>
     <Name>Cuphead</Name>
@@ -74,7 +64,6 @@
     <Developer>StudioMDHR</Developer>
     <Publisher>StudioMDHR</Publisher>
   </VideoGame>
-
   <VideoGame>
     <Id>9</Id>
     <Name>Overwatch</Name>
@@ -83,7 +72,6 @@
     <Developer>Blizzard Entertainment</Developer>
     <Publisher>Blizzard Entertainment</Publisher>
   </VideoGame>
-
   <VideoGame>
     <Id>10</Id>
     <Name>Nioh</Name>
@@ -92,7 +80,6 @@
     <Developer>Team Ninja</Developer>
     <Publisher>Koei Tecmo</Publisher>
   </VideoGame>
-
   <VideoGame>
     <Id>11</Id>
     <Name>The Witcher 3: Wild Hunt</Name>
@@ -101,7 +88,6 @@
     <Developer>CD Projekt RED</Developer>
     <Publisher>CD Projekt</Publisher>
   </VideoGame>
-
   <VideoGame>
     <Id>12</Id>
     <Name>Portal</Name>
@@ -110,7 +96,6 @@
     <Developer>Valve Corporation</Developer>
     <Publisher>Valve Corporation</Publisher>
   </VideoGame>
-
   <VideoGame>
     <Id>13</Id>
     <Name>Factorio</Name>
@@ -119,7 +104,6 @@
     <Developer>Wube Software</Developer>
     <Publisher>Wube Software</Publisher>
   </VideoGame>
-
   <VideoGame>
     <Id>14</Id>
     <Name>Human: Fall Flat</Name>
@@ -128,7 +112,6 @@
     <Developer>No Brakes Games</Developer>
     <Publisher>Curve Digital</Publisher>
   </VideoGame>
-
   <VideoGame>
     <Id>15</Id>
     <Name>Terraria</Name>
@@ -137,7 +120,6 @@
     <Developer>Re-Logic</Developer>
     <Publisher>Re-Logic</Publisher>
   </VideoGame>
-
   <VideoGame>
     <Id>16</Id>
     <Name>Gunpoint</Name>
@@ -146,7 +128,6 @@
     <Developer>Tom Francis</Developer>
     <Publisher>Suspicious Developments</Publisher>
   </VideoGame>
-
   <VideoGame>
     <Id>17</Id>
     <Name>Nidhogg</Name>
@@ -155,7 +136,6 @@
     <Developer>Messhof Games</Developer>
     <Publisher>Messhof Games</Publisher>
   </VideoGame>
-
   <VideoGame>
     <Id>18</Id>
     <Name>Magicka</Name>
@@ -164,7 +144,6 @@
     <Developer>Arrowhead Game Studios</Developer>
     <Publisher>Paradox Interactive</Publisher>
   </VideoGame>
-
   <VideoGame>
     <Id>19</Id>
     <Name>Path of Exile</Name>
@@ -173,7 +152,6 @@
     <Developer>Grinding Gear Games</Developer>
     <Publisher>Grinding Gear Games</Publisher>
   </VideoGame>
-
   <VideoGame>
     <Id>20</Id>
     <Name>7 Days to Die</Name>
@@ -182,7 +160,6 @@
     <Developer>The Fun Pimps</Developer>
     <Publisher>Telltale Games</Publisher>
   </VideoGame>
-
   <VideoGame>
     <Id>21</Id>
     <Name>Dungeon of the Endless</Name>
@@ -191,5 +168,4 @@
     <Developer>Amplitude Studios</Developer>
     <Publisher>hemodroid</Publisher>
   </VideoGame>
-  
 </VideoGames>
