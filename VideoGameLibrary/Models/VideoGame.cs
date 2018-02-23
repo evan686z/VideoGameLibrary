@@ -9,6 +9,8 @@ namespace VideoGameLibrary.Models
     public class VideoGame
     {
         public int Id { get; set; }
+        [Required]
+        [Display(Name = "Title")]
         public string Name { get; set; }
         [Display(Name = "Release Date")]
         public string ReleaseDate { get; set; }
