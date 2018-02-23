@@ -81,14 +81,6 @@
     <Publisher>Valve Corporation</Publisher>
   </VideoGame>
   <VideoGame>
-    <Id>13</Id>
-    <Name>Factorio</Name>
-    <ReleaseDate>January 1, 2012</ReleaseDate>
-    <ReleaseYear>2012</ReleaseYear>
-    <Developer>Wube Software</Developer>
-    <Publisher>Wube Software</Publisher>
-  </VideoGame>
-  <VideoGame>
     <Id>14</Id>
     <Name>Human: Fall Flat</Name>
     <ReleaseDate>July 22, 2016</ReleaseDate>
@@ -105,14 +97,6 @@
     <Publisher>Re-Logic</Publisher>
   </VideoGame>
   <VideoGame>
-    <Id>16</Id>
-    <Name>Gunpoint</Name>
-    <ReleaseDate>June 3, 2013</ReleaseDate>
-    <ReleaseYear>2013</ReleaseYear>
-    <Developer>Tom Francis</Developer>
-    <Publisher>Suspicious Developments</Publisher>
-  </VideoGame>
-  <VideoGame>
     <Id>17</Id>
     <Name>Nidhogg</Name>
     <ReleaseDate>January 13, 2014</ReleaseDate>
@@ -127,14 +111,6 @@
     <ReleaseYear>2011</ReleaseYear>
     <Developer>Arrowhead Game Studios</Developer>
     <Publisher>Paradox Interactive</Publisher>
-  </VideoGame>
-  <VideoGame>
-    <Id>21</Id>
-    <Name>Dungeon of the Endless</Name>
-    <ReleaseDate>October 27, 2014</ReleaseDate>
-    <ReleaseYear>2014</ReleaseYear>
-    <Developer>Amplitude Studios</Developer>
-    <Publisher>hemodroid</Publisher>
   </VideoGame>
   <VideoGame>
     <Id>19</Id>
@@ -178,5 +154,30 @@
     <Developer>FromSoftware</Developer>
     <Publisher>Bandai Namco Entertainment</Publisher>
     <YouTubeEmbedLink>https://www.youtube.com/embed/grJ_6d-y9cU</YouTubeEmbedLink>
+  </VideoGame>
+  <VideoGame>
+    <Id>21</Id>
+    <Name>Dungeon of the Endless</Name>
+    <ReleaseDate>October 27, 2014</ReleaseDate>
+    <ReleaseYear>2014</ReleaseYear>
+    <Developer>Amplitude Studios</Developer>
+    <Publisher>hemodroid</Publisher>
+  </VideoGame>
+  <VideoGame>
+    <Id>16</Id>
+    <Name>Gunpoint</Name>
+    <ReleaseDate>June 3, 2013</ReleaseDate>
+    <ReleaseYear>2013</ReleaseYear>
+    <Developer>Tom Francis</Developer>
+    <Publisher>Suspicious Developments</Publisher>
+    <YouTubeEmbedLink>https://www.youtube.com/embed/q9d5ht7mQUU</YouTubeEmbedLink>
+  </VideoGame>
+  <VideoGame>
+    <Id>13</Id>
+    <Name>Factorio</Name>
+    <ReleaseDate>January 1, 2012</ReleaseDate>
+    <ReleaseYear>2012</ReleaseYear>
+    <Developer>Wube Software</Developer>
+    <Publisher>Wube Software</Publisher>
   </VideoGame>
 </VideoGames>
