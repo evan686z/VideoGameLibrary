@@ -63,6 +63,7 @@
             @Html.EditorFor(model => model.YouTubeEmbedLink, new { htmlAttributes = new { @class = "form-control textbox-color01" } })
             @Html.ValidationMessageFor(model => model.YouTubeEmbedLink, "", new { @class = "text-danger" })
             <small class="form-text text-muted">ex: "https://www.youtube.com/embed/l_zsz_MlVvI"</small>
+            <small class="form-text text-muted">You may need to remove the "?rel=0" from the embed link</small>
         </div>
     </div>
 

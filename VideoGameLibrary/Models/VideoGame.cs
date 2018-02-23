@@ -17,7 +17,7 @@ namespace VideoGameLibrary.Models
         public string Name { get; set; }
 
         [Display(Name = "Release Date")]
-        [RegularExpression(@"(Jan(uary)?|Feb(ruary)?|Mar(ch)?|Apr(il)?|May|Jun(e)?|Jul(y)?|Aug(ust)?|Sep(tember)?|Oct(ober)?|Nov(ember)?|Dec(ember)?)\s+\d{1,2},\s+\d{4}", ErrorMessage = "Please enter a valid date (Month Name, Day, Year).")]
+        [RegularExpression(@"(Jan(uary)?|Feb(ruary)?|Mar(ch)?|Apr(il)?|May|Jun(e)?|Jul(y)?|Aug(ust)?|Sep(tember)?|Oct(ober)?|Nov(ember)?|Dec(ember)?)\s+\d{1,2},\s+\d{4}", ErrorMessage = "Please enter a valid date (Month Name Day, Year).")]
         public string ReleaseDate { get; set; }
 
         [Display(Name = "Release Year")]

@@ -180,4 +180,13 @@
     <Developer>Wube Software</Developer>
     <Publisher>Wube Software</Publisher>
   </VideoGame>
+  <VideoGame>
+    <Id>24</Id>
+    <Name>Grand Theft Auto 5</Name>
+    <ReleaseDate>September 17, 2013</ReleaseDate>
+    <ReleaseYear>2013</ReleaseYear>
+    <Developer>Rockstar North</Developer>
+    <Publisher>Rockstar Games</Publisher>
+    <YouTubeEmbedLink>https://www.youtube.com/embed/QkkoHAzjnUs</YouTubeEmbedLink>
+  </VideoGame>
 </VideoGames>
