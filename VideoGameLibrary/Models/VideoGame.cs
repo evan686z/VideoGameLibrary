@@ -18,5 +18,7 @@ namespace VideoGameLibrary.Models
         public string ReleaseYear { get; set; }
         public string Developer { get; set; }
         public string Publisher { get; set; }
+        [Display(Name = "Embeded YouTube Link")]
+        public string YouTubeEmbedLink { get; set; }
     }
 }

@@ -49,14 +49,6 @@
     <Publisher>Square Enix</Publisher>
   </VideoGame>
   <VideoGame>
-    <Id>8</Id>
-    <Name>Cuphead</Name>
-    <ReleaseDate>September 29, 2017</ReleaseDate>
-    <ReleaseYear>2017</ReleaseYear>
-    <Developer>StudioMDHR</Developer>
-    <Publisher>StudioMDHR</Publisher>
-  </VideoGame>
-  <VideoGame>
     <Id>9</Id>
     <Name>Overwatch</Name>
     <ReleaseDate>May 24, 2016</ReleaseDate>
@@ -167,5 +159,24 @@
     <ReleaseYear>2017</ReleaseYear>
     <Developer>Capcom</Developer>
     <Publisher>Capcom</Publisher>
+    <YouTubeEmbedLink>https://www.youtube.com/embed/W1OUs3HwIuo</YouTubeEmbedLink>
+  </VideoGame>
+  <VideoGame>
+    <Id>8</Id>
+    <Name>Cuphead</Name>
+    <ReleaseDate>September 29, 2017</ReleaseDate>
+    <ReleaseYear>2017</ReleaseYear>
+    <Developer>StudioMDHR</Developer>
+    <Publisher>StudioMDHR</Publisher>
+    <YouTubeEmbedLink>https://www.youtube.com/embed/D-1n15aIgsE</YouTubeEmbedLink>
+  </VideoGame>
+  <VideoGame>
+    <Id>23</Id>
+    <Name>Dark Souls III</Name>
+    <ReleaseDate>March 24, 2016</ReleaseDate>
+    <ReleaseYear>2016</ReleaseYear>
+    <Developer>FromSoftware</Developer>
+    <Publisher>Bandai Namco Entertainment</Publisher>
+    <YouTubeEmbedLink>https://www.youtube.com/embed/grJ_6d-y9cU</YouTubeEmbedLink>
   </VideoGame>
 </VideoGames>
