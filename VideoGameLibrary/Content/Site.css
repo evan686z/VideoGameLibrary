@@ -41,7 +41,7 @@ a, a:hover, a:active, a:focus, a:link {
     outline: 0px none !important;
 }
 
-.textbox-color01, .textbox-color01:active, .textbox-color01:focus {
+.textbox-color01, .textbox-color01:active, .textbox-color01:focus, select, select:active, select:focus{
     color: white;
     background-color: #2A9FD6;
 }
