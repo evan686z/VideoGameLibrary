@@ -41,6 +41,11 @@ a, a:hover, a:active, a:focus, a:link {
     outline: 0px none !important;
 }
 
+.textbox-color01, .textbox-color01:active, .textbox-color01:focus {
+    color: white;
+    background-color: #2A9FD6;
+}
+
 /*.navbar-toggle {
     position: relative;
     float: right;

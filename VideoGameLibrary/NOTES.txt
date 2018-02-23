@@ -1,3 +1,7 @@
 ﻿NOTES:
 
 Maybe add description, platforms(list in xml?), genre, box art(img in xml?), metcritic score?
+
+Make search and filter hidable?
+
+Add validation to create new video game (date, year)

@@ -178,24 +178,35 @@ namespace VideoGameLibrary.Controllers
             }
         }
 
-        // GET: VideoGame/Delete/5
+        [HttpGet]
         public ActionResult Delete(int id)
         {
-            return View();
+            VideoGameRepository videoGameRepository = new VideoGameRepository();
+            VideoGame videoGame = new VideoGame();
+
+            using (videoGameRepository)
+            {
+                videoGame = videoGameRepository.SelectOne(id);
+            }
+            return View(videoGame);
         }
 
-        // POST: VideoGame/Delete/5
         [HttpPost]
-        public ActionResult Delete(int id, FormCollection collection)
+        public ActionResult Delete(int id, VideoGame videoGame)
         {
             try
             {
-                // TODO: Add delete logic here
+                VideoGameRepository videoGameRepository = new VideoGameRepository();
 
+                using (videoGameRepository)
+                {
+                    videoGameRepository.Delete(id);
+                }
                 return RedirectToAction("Index");
             }
             catch
             {
+                // TODO: add view for error message
                 return View();
             }
         }

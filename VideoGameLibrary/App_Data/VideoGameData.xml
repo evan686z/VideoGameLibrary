@@ -41,14 +41,6 @@
     <Publisher>Capcom</Publisher>
   </VideoGame>
   <VideoGame>
-    <Id>6</Id>
-    <Name>Resident Evil 7: Biohazard</Name>
-    <ReleaseDate>January 24, 2017</ReleaseDate>
-    <ReleaseYear>2017</ReleaseYear>
-    <Developer>Capcom</Developer>
-    <Publisher>Capcom</Publisher>
-  </VideoGame>
-  <VideoGame>
     <Id>7</Id>
     <Name>Nier: Automata</Name>
     <ReleaseDate>February 23, 2017</ReleaseDate>
@@ -153,14 +145,6 @@
     <Publisher>hemodroid</Publisher>
   </VideoGame>
   <VideoGame>
-    <Id>20</Id>
-    <Name>7 Days to Die</Name>
-    <ReleaseDate>December 13, 2013</ReleaseDate>
-    <ReleaseYear>2013</ReleaseYear>
-    <Developer>The Fun Pimps</Developer>
-    <Publisher>Telltale Games</Publisher>
-  </VideoGame>
-  <VideoGame>
     <Id>19</Id>
     <Name>Path of Exile</Name>
     <ReleaseDate>October 23, 2013</ReleaseDate>
@@ -175,5 +159,13 @@
     <ReleaseYear>2004</ReleaseYear>
     <Developer>Blizzard Entertainment</Developer>
     <Publisher>Blizzard Entertainment</Publisher>
+  </VideoGame>
+  <VideoGame>
+    <Id>6</Id>
+    <Name>Resident Evil 7: Biohazard</Name>
+    <ReleaseDate>January 24, 2017</ReleaseDate>
+    <ReleaseYear>2017</ReleaseYear>
+    <Developer>Capcom</Developer>
+    <Publisher>Capcom</Publisher>
   </VideoGame>
 </VideoGames>

@@ -209,6 +209,7 @@
     <Content Include="Views\VideoGame\Details.cshtml" />
     <Content Include="Views\VideoGame\Create.cshtml" />
     <Content Include="Views\VideoGame\Edit.cshtml" />
+    <Content Include="Views\VideoGame\Delete.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
