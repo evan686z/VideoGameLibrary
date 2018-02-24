@@ -50,6 +50,7 @@
 </div>
 
 <div class="form-group">
-    <input type="button" value="Edit" class="btn btn-warning" onclick="location.href='@Url.Action("Edit", "VideoGame", new { id = Model.Id })'" />
     <input type="button" value="Back" class="btn btn-primary" onclick="location.href='@Url.Action("Index", "VideoGame")'" />
+    <input type="button" value="Edit" class="btn btn-warning" onclick="location.href='@Url.Action("Edit", "VideoGame", new { id = Model.Id })'" />
+    <input type="button" value="Delete" class="btn btn-danger" onclick="location.href='@Url.Action("Delete", "VideoGame", new { id = Model.Id })'" />    
 </div>

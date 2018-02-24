@@ -27,14 +27,6 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.ReleaseYear)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.ReleaseYear)
-        </dd>
-
-        <dt>
             @Html.DisplayNameFor(model => model.Developer)
         </dt>
 
@@ -55,9 +47,9 @@
     @using (Html.BeginForm()) {
         @Html.AntiForgeryToken()
 
-    <div class="form-actions no-color">
+    <div class="form-actions no-color">        
+        <input type="button" value="Back" class="btn btn-primary" onclick="location.href='@Url.Action("Details", "VideoGame", new { id = Model.Id })'" />
         <input type="submit" value="Delete" class="btn btn-danger" />
-        <input type="button" value="Back" class="btn btn-primary" onclick="location.href='@Url.Action("Index", "VideoGame")'" />
     </div>
     }
 </div>
