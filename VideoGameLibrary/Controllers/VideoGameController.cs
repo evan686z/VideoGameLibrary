@@ -125,6 +125,7 @@ namespace VideoGameLibrary.Controllers
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public ActionResult Create(VideoGame videoGame)
         {
             try
@@ -141,7 +142,7 @@ namespace VideoGameLibrary.Controllers
             catch
             {
                 // TODO: add view for error message
-                return View();
+                return View("Error");
             }
         }
 
@@ -159,6 +160,7 @@ namespace VideoGameLibrary.Controllers
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public ActionResult Edit(VideoGame videoGame)
         {
             try
@@ -174,7 +176,7 @@ namespace VideoGameLibrary.Controllers
             catch
             {
                 // TODO: add view for error message
-                return View();
+                return View("Error");
             }
         }
 
@@ -192,6 +194,7 @@ namespace VideoGameLibrary.Controllers
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public ActionResult Delete(int id, VideoGame videoGame)
         {
             try
@@ -207,7 +210,7 @@ namespace VideoGameLibrary.Controllers
             catch
             {
                 // TODO: add view for error message
-                return View();
+                return View("Error");
             }
         }
     }
